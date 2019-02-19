@@ -6,6 +6,14 @@ For detailed instructions on how to set up see: https://support.instaclustr.com/
 
 Please see https://www.instaclustr.com/support/documentation/announcements/instaclustr-open-source-project-status/ for Instaclustr support status of this project
 
+## Prerequisites
+
+Install Python and Pip
+
+Install Datadog python client library
+
+`pip install datadog`
+
 ## Configuration Examples
 
 This folder contains JSON configuration examples of:
