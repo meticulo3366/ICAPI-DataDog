@@ -1,0 +1,15 @@
+{
+  "cluster_id":"instaclustr-cluster-id",
+  "metrics_list":"n::cpuutilization,n::diskUtilization,kt::{topic}::messagesInPerTopic::mean_rate,kt::{topic}::messagesInPerTopic::one_minute_rate,kt::{topic}::bytesOutPerTopic::mean_rate,kt::{topic}::bytesOutPerTopic::one_minute_rate,kt::{topic}::bytesInPerTopic::mean_rate,kt::{topic}::bytesInPerTopic::one_minute_rate,kt::{topic}::fetchMessageConversionsPerTopic::count,kt::{topic}::fetchMessageConversionsPerTopic::mean_rate,kt::{topic}::fetchMessageConversionsPerTopic::one_minute_rate,kt::{topic}::produceMessageConversisonsPerTopic::count,kt::{topic}::produceMessageConversisonsPerTopic::mean_rate,kt::{topic}::produceMessageConversisonsPerTopic::one_minute_rate,kt::{topic}::failedFetchMessagePerTopic::count,kt::{topic}::failedFetchMessagePerTopic::mean_rate,kt::{topic}::failedFetchMessagePerTopic::one_minute_rate,kt::{topic}::failedProduceMessagePerTopic::count,kt::{topic}::failedProduceMessagePerTopic::mean_rate,kt::{topic}::failedProduceMessagePerTopic::one_minute_rate",
+  "dd_options":
+  {
+    "api_key":"[datadog API key]",
+    "app_key":"[datadog app key]"
+  },
+  "ic_options":
+  {
+    "user_name":"instaclustr-user-name",
+    "api_key":"instaclustr-password"
+  },
+  "tags":["tag_name:tag_value"]
+}

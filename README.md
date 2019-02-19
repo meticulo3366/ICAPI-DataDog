@@ -5,3 +5,9 @@ For detailed instructions on how to set up see: https://support.instaclustr.com/
 
 
 Please see https://www.instaclustr.com/support/documentation/announcements/instaclustr-open-source-project-status/ for Instaclustr support status of this project
+
+## Configuration Examples
+
+This folder contains JSON configuration examples of:
+* Kafka (all Metrics)
+* Kafka Topic Level Metrics (replace {topic} with your Kafka Topic)
